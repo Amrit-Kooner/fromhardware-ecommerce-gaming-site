@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <!-- META -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Description of your website">
+        <meta name="author" content="Amrit Saab Kooner">
+        <!-- STYLE -->
+        <link rel="stylesheet" href="css/cssmain.css">
+        <link rel="shortcut icon" type="image/png" href="image/###">
+        <!-- TITLE -->
+        <title>Fromhardware - Gaming store</title>
+    </head>
+    <body id="top">
+      <!-- ## -->
+      <!-- <div id="top"></div> -->
+      <header>
+        <!-- HEADER CONTAINER -->
+        <div class="container">
+          
+          <!-- HEADER BURGER MENU-->
+          <label class="burger-menu" for="burger-menu-toggle">
+            <i class="fa-sharp fa-solid fa-bars burger-menu-icon"></i>
+          </label>
+          <input type="checkbox" id="burger-menu-toggle"/>
+    
+          <!-- HEADER LOGO -->
+          <div class="logo">
+            <!--<a href="#"><img src="#" alt="logo"/></a>-->
+            <a class="logo" href="/index.html">FROMHARDWARE</a>
+          </div>
+          
+          <!-- HEADER SEARCH BAR -->
+          <div class="header-search-bar">
+            <form class="search-bar-form" action="#" method="GET">
+                <input class="search-input" type="text" maxlength="75" placeholder="Search..."/>
+                <button class="search-btn" type="submit">
+                  <i class="fa-sharp fa-solid fa-magnifying-glass search-icon"></i>
+                </button>
+            </form>
+          </div>
+          
+          <!-- HEADER NAVIGATION -->
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li><a href="/pc.html">pc</a></li>
+              <li><a class="active" href="#">xbox</a></li>
+              <li><a href="/nintendo.html">nintendo</a></li>
+              <li><a href="/playstation.html">playstation</a></li>
+            </ul>
+          </nav>
+          
+          <!-- HEADER ICONS -->
+          <ul class="header-icons-list">
+            <li class="user-btn">
+              <input type="checkbox" id="user-icon-toggle"/>
+              <label for="user-icon-toggle">
+                <i class="fa-solid fa-user user-icon"><span class="user-icon-arrow">&#9660</span></i> 
+              </label>
+              <!-- USER ICON DROP DOWN MENU -->
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="login.html">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    <span>Login</span>
+                  </a> 
+                </li>
+                <li>
+                  <a href="register.html">
+                    <i class="fa-sharp fa-solid fa-user-plus"></i>
+                      <span>Register</span>
+                  </a>
+                  </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-solid fa-gear"></i>
+                    <span>Settings</span>
+                  </a>  
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="/cart.html"><i class="fa-solid fa-cart-shopping cart-icon"></i></a>
+              <span id="cart-counter" class="cart-counter">3</span></a> 
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- HERO BANNER -->
+      <section class="home-banner platform-banner">
+          <div class="container">
+
+            <div class="banner-wrapper">
+              <h1 class="banner-title">XBOX</h1>
+            </div>
+
+          </div>
+          <video id="video" autoplay muted loop>
+            <source src="video/xbox-vid.mp4" type="video/mp4">
+          </video>
+      </section>
+
+      <main class="main-content">
+        <!-- CARD SCROLLERS -->
+        <section class="card-scrollers platform-scroller">
+            <!-- PC GAMES -->
+            <div class="scroll-wrapper">
+              <div class="container">
+                <h1 class="scroll-name">top XBOX games</h1>
+                <div class="scroll-divider"></div>
+                <!---->
+                <div class="card-items">
+                  <div class="card-wrapper">
+                    <a href="item.html" class="card" data-tooltip="Atomic Heart">
+                      <img class="card-img" src="img/xbox-img/atomicheart.jpg"/>
+                      <h1 class="card-title">Atomic Heart</h1>
+                      <p class="card-price">&#163;<span>59.99</span></p>
+                      <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                    </a>
+                    <form action="#" method="#" class="card-form">
+                      <button class="card-btn" type="submit">Add to Basket
+                        <i class="fa-solid fa-cart-shopping"></i>
+                      </button>
+                      <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                    </form>
+                  </div>
+
+                  <div class="card-wrapper">
+                    <a href="item.html" class="card" data-tooltip="Cuphead">
+                      <img class="card-img" src="img/xbox-img/cuphead.jpg"/>
+                      <h1 class="card-title">Cuphead</h1>
+                      <p class="card-price">&#163;<span>59.99</span></p>
+                      <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typply dummy text of text of</p>
+                    </a>
+                    <form action="#" method="#" class="card-form">
+                      <button class="card-btn" type="submit">Add to Basket
+                        <i class="fa-solid fa-cart-shopping"></i>
+                      </button>
+                      <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                    </form>
+                  </div>
+
+                  <div class="card-wrapper">
+                    <a href="item.html" class="card" data-tooltip="Dark Souls Trilogy">
+                      <img class="card-img" src="img/xbox-img/darksoulstril.jpg"/>
+                      <h1 class="card-title">Dark Souls Trilogy</h1>
+                      <p class="card-price">&#163;<span>59.99</span></p>
+                      <p class="card-txt">Lorem Ipsum is simply dummy text of the printintting industry.Lorem Ipsum is simply dummy text of text of</p>
+                    </a>
+                    <form action="#" method="#" class="card-form">
+                      <button class="card-btn" type="submit">Add to Basket
+                        <i class="fa-solid fa-cart-shopping"></i>
+                      </button>
+                      <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                    </form>
+                  </div>
+
+                  <div class="card-wrapper">
+                    <a href="item.html" class="card" data-tooltip="Darktide">
+                      <img class="card-img" src="img/xbox-img/darktide.jpg"/>
+                      <h1 class="card-title">Darktide</h1>
+                      <p class="card-price">&#163;<span>59.99</span></p>
+                      <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of text ofLorem Ipsum is simply dummy text of text of</p>
+                    </a>
+                    <form action="#" method="#" class="card-form">
+                      <button class="card-btn" type="submit">Add to Basket
+                        <i class="fa-solid fa-cart-shopping"></i>
+                      </button>
+                      <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                    </form>
+                  </div>
+
+                  <div class="card-wrapper">
+                    <a href="item.html" class="card" data-tooltip="Dead Island 2">
+                      <img class="card-img" src="img/xbox-img/deadisland.jpg"/>
+                      <h1 class="card-title">Dead Island 2</h1>
+                      <p class="card-price">&#163;<span>59.99</span></p>
+                      <p class="card-txt">Lorem Ipsum is simply dummy text of the printing a industry.Lorem Ipsum is simply dummy text of text of</p>
+                    </a>
+                    <form action="#" method="#" class="card-form">
+                      <button class="card-btn" type="submit">Add to Basket
+                        <i class="fa-solid fa-cart-shopping"></i>
+                      </button>
+                      <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                    </form>
+                  </div>
+
+                  <div class="card-wrapper">
+                    <a href="item.html" class="card" data-tooltip="Dead Space Remake">
+                      <img class="card-img" src="img/xbox-img/deadspace.jpg"/>
+                      <h1 class="card-title">Dead Space Remake</h1>
+                      <p class="card-price">&#163;<span>59.99</span></p>
+                      <p class="card-txt">Lorem Ipsum is simply dummy text of the printingtting industry.Lorem Ipsum is simply dummy text of text of</p>
+                    </a>
+                    <form action="#" method="#" class="card-form">
+                      <button class="card-btn" type="submit">Add to Basket
+                        <i class="fa-solid fa-cart-shopping"></i>
+                      </button>
+                      <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                    </form>
+                  </div>
+
+                  <div class="card-wrapper">
+                    <a href="item.html" class="card" data-tooltip="Elden Ring">
+                      <img class="card-img" src="img/xbox-img/elden.jpg"/>
+                      <h1 class="card-title">Elden Ring</h1>
+                      <p class="card-price">&#163;<span>59.99</span></p>
+                      <p class="card-txt">Lorem Ipsum is simply dummy text of t Ipsum is simply dummy text of text of</p>
+                    </a>
+                    <form action="#" method="#" class="card-form">
+                      <button class="card-btn" type="submit">Add to Basket
+                        <i class="fa-solid fa-cart-shopping"></i>
+                      </button>
+                      <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                    </form>
+                  </div>
+
+                  <div class="card-wrapper">
+                    <a href="item.html" class="card" data-tooltip="Flight Simultor">
+                      <img class="card-img" src="img/xbox-img/flight.jpg">
+                      <h1 class="card-title">Flight Simultor</h1>
+                      <p class="card-price">&#163;<span>59.99</span></p>
+                      <p class="card-txt">Lorem Ipsum is simply dummy text of the printing f</p>
+                    </a>
+                    <form action="#" method="#" class="card-form">
+                      <button class="card-btn" type="submit">Add to Basket
+                        <i class="fa-solid fa-cart-shopping"></i>
+                      </button>
+                      <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                    </form>
+                  </div>
+
+                  <div class="card-wrapper">
+                    <a href="item.html" class="card" data-tooltip="Forza Horizon 5">
+                      <img class="card-img" src="img/xbox-img/forza.jpg"/>
+                      <h1 class="card-title">Forza Horizon 5</h1>
+                      <p class="card-price">&#163;<span>59.99</span></p>
+                      <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of text of</p>
+                    </a>
+                    <form action="#" method="#" class="card-form">
+                      <button class="card-btn" type="submit">Add to Basket
+                        <i class="fa-solid fa-cart-shopping"></i>
+                      </button>
+                      <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                    </form>
+                  </div>
+                  
+              
+
+
+                  <!-- MORE CARDS AFTER THIS -->
+                  
+                </div>
+              </div>     
+            </div>
+          </div>
+        </section>
+
+        <!--  -->
+        <section class="side-by-side">
+          <div class="container">
+            <div class="left-side">
+              <img src="img/halo.jpg" alt="#"/>
+            </div>
+            <div class="right-side">
+              <div class="right-side-wrapper">
+                <h1>latest XBOX news</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                  optio, eaque rerum! Provident similique accusantium nemo autem. <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                  numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                  optio, eaque rerum! Provident similique accusantium nemo autem.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--  -->
+        <section class="items-section">
+          <div class="pagnation-container">
+            <div class="pagnation">
+              <a href="#"><i class="fa-solid fa-backward"></i></a>
+              <a href="#">1</a>
+              <a href="#">2</a>
+              <a href="#">3</a>
+              <a href="#">4</a>
+              <a href="#">5</a>
+              <a href="#"><i class="fa-solid fa-forward"></i></a>
+            </div>
+          </div>
+
+          <div class="container card-items">
+              <!--PC GAME ITEMS-->
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Atomic Heart">
+                  <img class="card-img" src="img/xbox-img/atomicheart.jpg"/>
+                  <h1 class="card-title">Atomic Heart</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Cuphead">
+                  <img class="card-img" src="img/xbox-img/cuphead.jpg"/>
+                  <h1 class="card-title">Cuphead</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Dark Souls Trilogy">
+                  <img class="card-img" src="img/xbox-img/darksoulstril.jpg"/>
+                  <h1 class="card-title">Elden Ring</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Dead Island 2">
+                  <img class="card-img" src="img/xbox-img/deadisland.jpg"/>
+                  <h1 class="card-title">Elden Ring</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Dead Space">
+                  <img class="card-img" src="img/xbox-img/deadspace.jpg"/>
+                  <h1 class="card-title">Dead Space</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Elden Ring">
+                  <img class="card-img" src="img/xbox-img/elden.jpg"/>
+                  <h1 class="card-title">Elden Ring</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Flight Simultor">
+                  <img class="card-img" src="img/xbox-img/flight.jpg"/>
+                  <h1 class="card-title">Flight Simultor</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Forza Horizon 5">
+                  <img class="card-img" src="img/xbox-img/forza.jpg"/>
+                  <h1 class="card-title">Forza Horizon 5</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Halo Infinite">
+                  <img class="card-img" src="img/xbox-img/haloinfinite.jpg"/>
+                  <h1 class="card-title">Halo Infinite</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Human Fall Flat">
+                  <img class="card-img" src="img/xbox-img/humanfallflat.jpg"/>
+                  <h1 class="card-title">Human Fall Flat</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Like a Dragon: Isshin">
+                  <img class="card-img" src="img/xbox-img/isshin.jpg"/>
+                  <h1 class="card-title">Like a Dragon: Isshin</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Star Wars: Jedi Survior">
+                  <img class="card-img" src="img/xbox-img/jedi.jpg"/>
+                  <h1 class="card-title">Star Wars: Jedi Survior</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Minecraft">
+                  <img class="card-img" src="img/xbox-img/minecraft.jpg"/>
+                  <h1 class="card-title">Minecraft</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Assassins Creed: Mirage">
+                  <img class="card-img" src="img/xbox-img/mirage.jpg"/>
+                  <h1 class="card-title">Assassins Creed: Mirage</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Persona 5">
+                  <img class="card-img" src="img/xbox-img/persona5.jpg"/>
+                  <h1 class="card-title">Persona 5</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Resident Evil 2">
+                  <img class="card-img" src="img/xbox-img/re2.jpg"/>
+                  <h1 class="card-title">Resident Evil 2</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Resident Evil 8">
+                  <img class="card-img" src="img/xbox-img/res8.jpg"/>
+                  <h1 class="card-title">Resident Evil 8</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Rust">
+                  <img class="card-img" src="img/xbox-img/rust.jpg"/>
+                  <h1 class="card-title">Rust</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Skyrim">
+                  <img class="card-img" src="img/xbox-img/skyrim.jpg"/>
+                  <h1 class="card-title">Skyrim</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Sonic Colours">
+                  <img class="card-img" src="img/xbox-img/soniccolours.jpg"/>
+                  <h1 class="card-title">Sonic Colours</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Spongebob Cosmic Shake">
+                  <img class="card-img" src="img/xbox-img/spongebob.jpg"/>
+                  <h1 class="card-title">Spongebob Cosmic Shake</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Starfield">
+                  <img class="card-img" src="img/xbox-img/starfield.jpg"/>
+                  <h1 class="card-title">Starfield</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Need For Speed: Unbound">
+                  <img class="card-img" src="img/xbox-img/unbound.jpg"/>
+                  <h1 class="card-title">Need For Speed: Unbound</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Wo Long">
+                  <img class="card-img" src="img/xbox-img/wolong.jpg"/>
+                  <h1 class="card-title">Wo Long</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+
+              <div class="card-wrapper">
+                <a href="item.html" class="card" data-tooltip="Warhammer: Darktide">
+                  <img class="card-img" src="img/xbox-img/darktide.jpg"/>
+                  <h1 class="card-title">Warhammer: Darktide</h1>
+                  <p class="card-price">&#163;<span>59.99</span></p>
+                  <p class="card-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem</p>
+                </a>
+                <form action="#" method="#" class="card-form">
+                  <button class="card-btn" type="submit">Add to Basket
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                  <input class="card-quantity" placeholder="#" type="number" min="1" maxlength="1" max="99" value="1"/>
+                </form>
+              </div>
+          </div>
+
+          <div class="pagnation-container">
+            <div class="pagnation">
+              <a href="#"><i class="fa-solid fa-backward"></i></a>
+              <a href="#">1</a>
+              <a href="#">2</a>
+              <a href="#">3</a>
+              <a href="#">4</a>
+              <a href="#">5</a>
+              <a href="#"><i class="fa-solid fa-forward"></i></a>
+            </div>
+          </div>
+        </section>
+      </main>
+ 
+      <!-- FOOTER -->
+      <footer>
+        <div class="container">
+          <div class="footer-main">
+            <!--  -->
+            <ul class="footer-nav">
+              <li><a href="/pc.html">PC</a></li>
+              <li><a href="#">xbox</a></li>
+              <li><a href="/nintendo.html">nintendo</a></li>
+              <li><a href="/playstation.html">playstation</a></li>
+            </ul>
+
+            <!--  -->
+            <ul class="footer-socials">
+              <li><a href="#"">twitter</a></li>
+              <li><a href="#"">tiktok</a></li>
+              <li><a href="#"">discord</a></li>
+              <li><a href="#"">intagram</a></li>
+            </ul>
+
+            <!--  -->
+            <form class="footer-form" method="#" action="#">
+              <label>Name:</label>
+              <input type="text" placeholder="..." class="name"/>
+              <!--  -->
+              <label>Email:</label>
+              <input type="email" placeholder="..." class="email"/>
+              <!--  -->
+              <label>Message:</label>
+              <textarea placeholder="..." class="message"></textarea>
+
+              <input type="submit" class="form-submit"> 
+            </form>
+          </div>
+        </div>
+        <div class="footer-copyright"><span>&#169;</span>Copyright - Amrit Kooner</div>
+      </footer>
+
+      <!-- BACK TO TOP BUTTON -->
+      <div class="to-top-btn">
+        <a href="#top" target="#"><i class="fa-solid fa-arrow-up-long"></i></a>
+      </div>
+
+      <script src="js/mainjs.js"></script>
+      <script src="https://kit.fontawesome.com/64885c474e.js" crossorigin="anonymous"></script>
+    </body>
+</html>

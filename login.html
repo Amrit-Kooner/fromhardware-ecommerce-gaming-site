@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <!-- META -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Description of your website">
+        <meta name="author" content="Amrit Saab Kooner">
+        <!-- STYLE -->
+        <link rel="stylesheet" href="css/cssmain.css">
+        <link rel="shortcut icon" type="image/png" href="image/###">
+        <!-- TITLE -->
+        <title>Fromhardware - Gaming store</title>
+    </head>
+    <body id="top">
+      <!-- ## -->
+      <!-- <div id="top"></div> -->
+      <header>
+        <!-- HEADER CONTAINER -->
+        <div class="container">
+          
+          <!-- HEADER BURGER MENU-->
+          <label class="burger-menu" for="burger-menu-toggle">
+            <i class="fa-sharp fa-solid fa-bars burger-menu-icon"></i>
+          </label>
+          <input type="checkbox" id="burger-menu-toggle"/>
+    
+          <!-- HEADER LOGO -->
+          <div class="logo">
+            <!--<a href="#"><img src="#" alt="logo"/></a>-->
+            <a class="logo" href="/index.html">FROMHARDWARE</a>
+          </div>
+          
+          <!-- HEADER SEARCH BAR -->
+          <div class="header-search-bar">
+            <form class="search-bar-form" action="#" method="GET">
+                <input class="search-input" type="text" maxlength="75" placeholder="Search..."/>
+                <button class="search-btn" type="submit">
+                  <i class="fa-sharp fa-solid fa-magnifying-glass search-icon"></i>
+                </button>
+            </form>
+          </div>
+          
+          <!-- HEADER NAVIGATION -->
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li><a href="/pc.html">pc</a></li>
+              <li><a href="/xbox.html">xbox</a></li>
+              <li><a href="/nintendo.html">nintendo</a></li>
+              <li><a href="/playstation.html">playstation</a></li>
+            </ul>
+          </nav>
+          
+          <!-- HEADER ICONS -->
+          <ul class="header-icons-list">
+            <li class="user-btn">
+              <input type="checkbox" id="user-icon-toggle"/>
+              <label for="user-icon-toggle">
+                <i class="fa-solid fa-user user-icon"><span class="user-icon-arrow">&#9660</span></i> 
+              </label>
+              <!-- USER ICON DROP DOWN MENU -->
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    <span>Login</span>
+                  </a> 
+                </li>
+                <li>
+                  <a href="register.html">
+                    <i class="fa-sharp fa-solid fa-user-plus"></i>
+                      <span>Register</span>
+                  </a>
+                  </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-solid fa-gear"></i>
+                    <span>Settings</span>
+                  </a>  
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="cart.html"><i class="fa-solid fa-cart-shopping cart-icon"></i></a>
+              <span id="cart-counter" class="cart-counter">3</span></a> 
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <main class="form-main-content">
+        <div class="container">
+          <div class="input-form">
+            <h1>login</h1>
+
+            <form action="#">
+              <div class="input-container">
+                <div class="input-wrapper">
+                  <label>email -</label>
+                  <input type="text" placeholder="...">
+                </div>
+                <div class="input-wrapper">
+                  <label>password -</label>
+                  <input type="text" placeholder="...">
+                </div>
+                <input class="form-btn" type="submit" value="LOGIN">
+              </div>
+
+              <div class="alt-options-container">
+                <p>or login with...</p>
+                <div class="options">
+                  <button><i class="fa-brands fa-twitter"></i></button>
+                  <button><i class="fa-brands fa-google"></i></button>
+                  <button><i class="fa-brands fa-meta"></i></button>
+                </div>
+            </div>
+          </form>
+
+          <div class="registration-message">don't have an account?<a class="#" href="register.html">register</a></div>
+          </div>
+        </div>
+      </main>
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="container">
+          <div class="footer-main">
+            <!--  -->
+            <ul class="footer-nav">
+              <li><a href="/pc.html">PC</a></li>
+              <li><a href="/xbox.html">xbox</a></li>
+              <li><a href="/nintendo.html">nintendo</a></li>
+              <li><a href="/playstation.html">playstation</a></li>
+            </ul>
+
+            <!--  -->
+            <ul class="footer-socials">
+              <li><a href="#"">twitter</a></li>
+              <li><a href="#"">tiktok</a></li>
+              <li><a href="#"">discord</a></li>
+              <li><a href="#"">intagram</a></li>
+            </ul>
+
+            <!--  -->
+            <form class="footer-form" method="#" action="#">
+              <label>Name:</label>
+              <input type="text" placeholder="..." class="name"/>
+              <!--  -->
+              <label>Email:</label>
+              <input type="email" placeholder="..." class="email"/>
+              <!--  -->
+              <label>Message:</label>
+              <textarea placeholder="..." class="message"></textarea>
+
+              <input type="submit" class="form-submit"> 
+            </form>
+          </div>
+        </div>
+        <div class="footer-copyright"><span>&#169;</span>Copyright - Amrit Kooner</div>
+      </footer>
+
+      <!-- BACK TO TOP BUTTON -->
+      <div class="to-top-btn">
+        <a href="#top" target="#"><i class="fa-solid fa-arrow-up-long"></i></a>
+      </div>
+
+      <script src="js/mainjs.js"></script>
+      <script src="https://kit.fontawesome.com/64885c474e.js" crossorigin="anonymous"></script>
+    </body>
+</html>
